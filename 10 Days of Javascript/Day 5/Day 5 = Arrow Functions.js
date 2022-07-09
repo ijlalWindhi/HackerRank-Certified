@@ -32,6 +32,7 @@ function readLine() {
  * nums: An array of numbers.
  */
 function modifyArray(nums) {
+  // map data array
   const objArray = nums.map(function (num) {
     if (num % 2 == 0) {
       return 2 * num;
